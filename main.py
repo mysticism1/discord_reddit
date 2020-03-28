@@ -21,4 +21,17 @@ async def post(ctx):
     random_post = random_post.title
     await ctx.send(random_post)
 
+
+@bot.command()
+async def setting(ctx):
+    await ctx.send("this is a bot made to boggle with your mind with posts from the r/showerthoughts subreddit")
+
+
+@bot.command()
+async def help(ctx):
+    await ctx.send("""
+            ``` ``~post`` for random post  ```
+        
+        
+    """)
 bot.run('NjkzMzM1NTM4OTU4MjA1MDI4.Xn8DgQ.RDuHV18h60oIlL4GPRKTdQjixBM')
