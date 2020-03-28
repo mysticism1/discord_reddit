@@ -1,1 +1,1 @@
-# discord_reddit
+# Discord bot for fun
